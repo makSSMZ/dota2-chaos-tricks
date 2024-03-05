@@ -1,12 +1,17 @@
 # Dota2Mode Chaos Tricks
-Мод Chaos Tricks для игры Dota 2 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2602215701
+[Мод Chaos Tricks для игры Dota 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2602215701)
 
 Все права пренадлежат https://chaostricks.com/
 
+## Технологии
+- [Lua](https://www.lua.org/)
+
+## Видео примера использования
+
+[![Chaos Tricks](http://img.youtube.com/vi/reRixUY7CrE/0.jpg)](http://www.youtube.com/watch?v=reRixUY7CrE)
+
 ## Использование
-В доте общая папка *:\SteamLibrary\steamapps\common\dota 2 beta две ключевые папки games и content
-Для кастомного плагина надо из соответствующих папок гита Dota2-mod взять файлы
+Скопировать папки вместе с содержимым games и content в *:\SteamLibrary\steamapps\common\dota 2 beta
 
 Релиз кастомки делать по гайду из воркшоп тулзы разработчиков:
 https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Workshop_Manager
@@ -17,9 +22,10 @@ https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Workshop_Manager
 Enable cheats
 chat cmd: spawnbots
 
-## Linl to app
+## Link to app
 * test: "https://---.com"
 * prod: "https://---.com"
+  
 To change linkapp need to write in chat: ChangeLinkToApp
 
 ## Implemented functions
