@@ -1,0 +1,78 @@
+.event {
+  width: 2168px;
+  height: 624px;
+  transform: scale3d(0.2, 0.2, 0) translate3d(0, -100%, 0);
+  font-family: Arial;
+  font-size: 25px;
+  color: #a6c7cd;
+  background-image: url('file://{images}/hud/glowy_fade.png');
+  background-size: 46%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.eventOneLine {
+  font-size: 26px;
+}
+
+.eventText, .userText, .teamText{
+  color: #cfd3df;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+
+.description, .descriptionSecond {
+  white-space: nowrap;
+  text-overflow: clip;
+}
+
+.textWrapper{	
+	horizontal-align: center;
+  margin-top: 35%;
+}
+
+.textWrapperOneLine{	
+  margin-top: 38%;
+}
+
+.textWrapperEvent {
+  horizontal-align: center;
+  flow-children: right;
+  margin-top: 30%;
+}
+
+.textWrapperEventSecond {
+  horizontal-align: center;
+  flow-children: right;
+  margin-top: 45%;
+}
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes 'fade-in' {
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1) translate3d(0, -17%, 0);
+  }
+}
+
+.fade-out {
+  animation-name: fade-out;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes 'fade-out' {
+  0% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1) translate3d(0, -17%, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale3d(1, 1, 1) translate3d(0, -17%, 0);
+  }
+}

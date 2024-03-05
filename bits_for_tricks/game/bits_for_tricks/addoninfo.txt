@@ -1,0 +1,74 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+    TeamCount = 3
+    maps = 
+    [
+        "DOTA",
+        "DOTA TOURNAMENT",
+    ]
+    IsPlayable = 1
+    PenaltiesEnabled = 0
+    EnablePickRules = 1
+    HeroGuidesSupported = 1
+    ForceDefaultGuide = 0
+    Default_Keys = 
+    [
+        {
+            Key = "ALT+1"
+            Command = "CustomGameExecuteAbility1"
+        },
+        {
+            Key = "ALT+2"
+            Command = "CustomGameExecuteAbility2"
+        },
+        {
+            Key = "ALT+3"
+            Command = "CustomGameExecuteAbility3"
+        },
+        {
+            Key = "ALT+4"
+            Command = "CustomGameExecuteAbility4"
+        },
+        {
+            Key = "ALT+5"
+            Command = "CustomGameExecuteAbility5"
+        },
+        {
+            Key = "ALT+6"
+            Command = "CustomGameExecuteAbility6"
+        },
+        {
+            Key = "ALT+7"
+            Command = "CustomGameExecuteAbility7"
+        },
+        {
+            Key = "ALT+8"
+            Command = "CustomGameExecuteAbility8"
+        },
+        {
+            Key = "ALT+9"
+            Command = "CustomGameExecuteAbility9"
+        },
+    ]
+    map_options = 
+    [
+        {
+            MaxPlayers = 10
+            map = "DOTA"
+        },
+        {
+            MaxPlayers = 24
+            map = "DOTA TOURNAMENT"
+        },
+    ]
+    HideInTools = false
+    IsTemplate = false
+    CheckAFKPlayers = false
+    DefaultMap = "DOTA"
+    DisableIK = false
+    EventGame = false
+    hero_picker = null
+    MinimalPrecache = false
+    MinPlayers = 1
+    MaxPlayers = 10
+}

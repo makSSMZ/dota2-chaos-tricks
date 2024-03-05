@@ -1,0 +1,38 @@
+"Portraits"
+{
+    "Version"        "1"
+    "PreferModelNames"        "1"
+    "DefaultActivity"        "ACT_DOTA_CAPTURE"
+    "CannotChangeActivity"        "1"
+    "models/development/invisiblebox.vmdl" // путь к модельке
+    {
+        "PortraitLightPosition"        "-22.18 -32.75 284.57"
+        "PortraitLightAngles"        "123.43 204.31 0.00"
+        "PortraitLightFOV"        "90"
+        "PortraitLightDistance"        "151"
+        "PortraitLightColor"        "254 254 254"
+        "PortraitShadowColor"        "0 56 84"
+        "PortraitShadowScale"        "5.000000"
+        "PortraitAmbientColor"        "129 155 209"
+        "PortraitAmbientScale"        "5.000000"
+        "PortraitSpecularColor"        "251 74 84"
+        "PortraitBackgroundTexture"        "materials/vgui/hud/heroportraits/portraitbackground.vmat"
+        "PortraitBackgroundColor1"		"1 1 1"
+		"PortraitBackgroundColor2"		"1 1 1"
+		"PortraitBackgroundColor3"		"1 1 1"
+		"PortraitBackgroundColor4"		"1 1 1"
+		"PortraitLightScale"		"4.500000"
+		"PortraitGroundShadowScale"		"1.500000"
+		"PortraitAmbientDirection"		"-79.070 -84.150 -25.320"
+        "PortraitAnimationActivity"        "ACT_DOTA_IDLE"
+        "cameras"
+        {
+            "default"
+            {
+                "PortraitPosition"        "331.764404 109.020172 93.554466"
+                "PortraitAngles"        "347.43 151.74 0.00"
+                "PortraitFOV"        "15"
+            }
+        }
+    }
+}

@@ -1,0 +1,334 @@
+// Units File
+"DOTAUnits"
+{
+	//=================================================================================================================
+	// Dummy Caster
+	//=================================================================================================================
+	"npc_dota_dummy_caster"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/development/invisiblebox.vmdl"
+		"SoundSet"					"Creep_Good_Melee"
+		"Level"						"1"
+		"ModelScale" 				"1.0"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"dummy_caster_passive"
+		"Ability2"					""
+		"Ability3"					""
+		"Ability4"					""
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"
+		"MagicalResistance"			"0"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"0"
+		"AttackDamageMax"			"0"
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"0"
+		"AttackAnimationPoint"		"0"
+		"AttackAcquisitionRange"	"0"
+		"AttackRange"				"0"
+		"ProjectileModel"			""
+		"ProjectileSpeed"			"0"
+
+		// Attributes
+		//----------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"0"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseIntelligence"	"0"
+		"AttributeIntelligenceGain"	"0"
+		"AttributeBaseAgility"		"0"
+		"AttributeAgilityGain"		"0"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"
+		"BountyGoldMin"				"0"
+		"BountyGoldMax"				"0"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		"RingRadius"				"45"
+		"HealthBarOffset"			"110"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"1.0"
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"30"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"10000"
+		"StatusStartingMana"		"10000"
+		"StatusManaRegen"			"500"
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"10"
+		"VisionNighttimeRange"		"10"
+
+		"DisableDamageDisplay"		"1"
+		"ImmuneToOmnislash"			"1"
+	}
+
+	//=================================================================================================================
+	// Dummy Caster Reserve
+	//=================================================================================================================
+	"npc_dota_dummy_caster_reserve"
+	{
+		// General
+		//----------------------------------------------------------------
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/development/invisiblebox.vmdl"
+		"SoundSet"					"Creep_Good_Melee"
+		"Level"						"1"
+		"ModelScale" 				"1.0"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"dummy_caster_passive_reserve"
+		"Ability2"					""
+		"Ability3"					""
+		"Ability4"					""
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"0"
+		"MagicalResistance"			"0"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"			"0"
+		"AttackDamageMax"			"0"
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"0"
+		"AttackAnimationPoint"		"0"
+		"AttackAcquisitionRange"	"0"
+		"AttackRange"				"0"
+		"ProjectileModel"			""
+		"ProjectileSpeed"			"0"
+
+		// Attributes
+		//----------------------------------------------------------------
+		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"0"
+		"AttributeStrengthGain"		"0"
+		"AttributeBaseIntelligence"	"0"
+		"AttributeIntelligenceGain"	"0"
+		"AttributeBaseAgility"		"0"
+		"AttributeAgilityGain"		"0"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"0"
+		"BountyGoldMin"				"0"
+		"BountyGoldMax"				"0"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		"RingRadius"				"45"
+		"HealthBarOffset"			"110"
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+		"MovementSpeed"				"0"
+		"MovementTurnRate"			"1.0"
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"30"
+		"StatusHealthRegen"			"0"
+		"StatusMana"				"10000"
+		"StatusStartingMana"		"10000"
+		"StatusManaRegen"			"500"
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_GOODGUYS"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"10000"
+		"VisionNighttimeRange"		"10000"
+
+		"DisableDamageDisplay"		"1"
+		"ImmuneToOmnislash"			"1"
+	}
+//=================================================================================
+// Boss
+//=================================================================================
+	"npc_neutral_boss"
+	{										
+		"vscripts"					"ai/neutral_boss"
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/creeps/baby_rosh_halloween/baby_rosh_dire/baby_rosh_dire.vmdl"	// Model.
+		"BaseClass"					"npc_dota_creature"
+		"SoundSet"					"Roshan"
+		"Level"						"1"
+		"ModelScale" 					"3.0"
+		"MinimapIcon"        "minimap_icon"
+		"MinimapIconSize"    "800"
+		"MinimapDisableTint" "1"
+		"IsAncient"					"1"
+		"IsBossMonster"				"1"
+		"UseNeutralCreepBehavior"   "0" //Будет ли босс далеко выходить
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"chaos_knight_chaos_bolt"			// Ability 1
+		"Ability2"					"earthshaker_fissure"			// Ability 2
+		"Ability3"					"mars_arena_of_blood"			// Ability 3
+		"Ability4"					"bane_nightmare"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"15"			// Physical protection.
+		"MagicalResistance"				"50"			// Magical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"49"		// Damage range min.
+		"AttackDamageMax"			"55"		// Damage range max.	
+		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
+		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
+		"AttackRange"				"100"		// Range within a target can be attacked.
+		"ProjectileModel"			""			// Particle system model for projectile.
+		"ProjectileSpeed"			"0"			// Speed of projectile.		   
+
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"60"
+		"HealthBarOffset"			"210"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"90"		// Experience earn.
+		"BountyGoldMin"				"56"		// Gold earned min.
+		"BountyGoldMax"				"66"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"290"		// Speed.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"15000"		// Base health.
+		"StatusHealthRegen"			"1"			// Health regeneration rate.
+		"StatusMana"				"4000"		// Base mana.
+		"StatusManaRegen"			"5"			// Mana regeneration rate.		 
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"                    "DOTA_TEAM_NEUTRALS"            // Team name.
+        "CombatClassAttack"            "DOTA_COMBAT_CLASS_ATTACK_BASIC"
+        "CombatClassDefend"            "DOTA_COMBAT_CLASS_DEFEND_BASIC"
+        "UnitRelationshipClass"        "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+
+		// Inventory
+		//----------------------------------------------------------------
+		"HasInventory"				"1"
+
+		"Creature"
+    		{
+    			// "ItemDrops"
+    			//  {
+    			//   "Consumables"
+    			//    {
+    			//      "Item"
+   				//      {
+    			//        "1"       "item_rapier"
+    			//      }
+    			//      "Chance"      "100"
+    			//    }
+    			//  }
+	  			"EquippedItems"
+					{
+  						"Rapier"  {  "Item"  "item_rapier"  }
+					}
+				//"AttachWearables"
+        		//	{
+           		//		"Mount"     { "ItemDef"     "9247" }
+            	//		"1" { "ItemDef"     "8537" }
+           		//		"2"	{ "ItemDef"	    "8538" }
+            	//		"3" { "ItemDef"     "8540" }
+            	//		"4"	{ "ItemDef"	    "8541" }
+            	//		"5"	{ "ItemDef"	    "8542" }
+            	//		"6"	{ "ItemDef"	    "8834" }
+        		//	}
+    		}
+	}	
+
+"zuus_race_land_mine"
+    {
+        "Model"                     "models/heroes/techies/fx_techiesfx_mine.vmdl"
+        "BaseClass"                 "npc_dota_creature"
+        "SoundSet"                  "0"
+        "ModelScale"                ".8"
+        "BoundsHullName"            "DOTA_HULL_SIZE_SMALL"
+
+        "Ability1"                  "proximity_mine_lua"    
+        "Ability2"                  "ability_hide_healthbar"
+        "Ability3"                  ""
+        "Ability4"                  ""
+
+        "ArmorPhysical"             "0"         // Physical protection.
+
+        "AttackCapabilities"        "DOTA_UNIT_CAP_NO_ATTACK"
+        "AttackDamageMin"           "0"         // Damage range min.
+        "AttackDamageMax"           "0"         // Damage range max.    
+        "AttackRate"                "1.0"       // Speed of attack.
+        "AttackAnimationPoint"      "0.0"       // Normalized time in animation cycle to attack.
+        "AttackAcquisitionRange"    "0"         // Range within a target can be acquired.
+        "AttackRange"               "0"         // Range within a target can be attacked.
+        "ProjectileModel"           ""          // Particle system model for projectile.
+        "ProjectileSpeed"           "0"         // Speed of projectile.        
+
+        "HealthBarOffset"           "140"
+
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_NONE"
+        "MovementSpeed"             "0"     // Speed.
+        "MovementTurnRate"          "0"     // Turning rate.
+
+        "StatusHealth"              "1"     // Base health.
+        "StatusHealthRegen"         "0.0"       // Health regeneration rate.
+        
+        "VisionDaytimeRange"        "64"        // Range of vision during day light.
+        "VisionNighttimeRange"      "64"        // Range of vision at night time.
+    }
+	
+}

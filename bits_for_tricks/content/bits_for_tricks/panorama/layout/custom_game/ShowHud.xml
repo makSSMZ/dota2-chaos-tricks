@@ -1,0 +1,30 @@
+<root>
+  <styles>
+    <include src="file://{resources}/styles/custom_game/ShowHud.css" />
+  </styles>
+  
+  <scripts>
+    <include src="file://{resources}/scripts/custom_game/ShowHud.js" />
+  </scripts>
+  
+  <snippets>  
+  </snippets>
+
+  <Panel>
+    <Panel id="root">
+      <Panel class="event" id="event">
+        <Panel class="textWrapper" id="textWrapper">
+          <Panel class="textWrapperEvent" id="textWrapperEvent">
+            <Label text="test user" class="userText" id="userText"/>
+            <Label text="#dota2_is_activated_message" class="description" id="description"/>
+            <Label text="test event" class="eventText" id="eventText"/>
+          </Panel>
+          <Panel class="textWrapperEventSecond" id="textWrapperEventSecond">
+            <Label text="test" class="descriptionSecond" id="descriptionSecond"/>
+            <Label text="team" class="teamText" id="teamText"/>
+          </Panel>
+        </Panel>
+      </Panel>
+    </Panel>
+  </Panel>
+</root>

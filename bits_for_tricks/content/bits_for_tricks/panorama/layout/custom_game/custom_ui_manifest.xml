@@ -1,0 +1,13 @@
+<root>
+  <script>
+    // thanks Firetoad for the spectator mod fix
+    GameUI.CustomUIConfig().team_select = {
+      "bShowSpectatorTeam" : true
+    };
+  </script>
+
+  <Panel >
+    <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/ShowHud.xml" />
+    <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/keybinds.xml" />
+  </Panel>
+</root>
