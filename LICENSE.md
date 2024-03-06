@@ -1,2 +1,3 @@
-Все права на Мод принадлежат ООО «БФТ» https://chaostricks.com/
-All rights to the Mod belong to BFT LLC https://chaostricks.com/
+Copyright (c) All rights are reserved by «BFT» LLC 
+
+License: https://github.com/nextgLoki/BitsForTricks/blob/main/license
